@@ -1,18 +1,18 @@
 import { Item, Label } from 'semantic-ui-react'
 import AddProductToCart from './AddProductToCart'
-function ProductSummary({ name, mediaUrl, _id, price, sku }) {
+function ProductSummary({ name, imageUrl, _id, price, sku, user }) {
   return (
     <Item.Group>
       <Item>
-        <Item.Image size='medium' src = {mediaUrl}/>
+        <Item.Image size='medium' src = {imageUrl}/>
         <Item.Content>
           <Item.Header>{ name } </Item.Header>
           <Item.Description> 
             <p>&#x20B9;{price}</p>
-            <Label>SKI : {sku} </Label>
+            <Label>SKU : {sku} </Label>
           </Item.Description>
           <Item.Extra>
-            <AddProductToCart productId={_id} />
+            <AddProductToCart user = {user} productId={_id} />
           </Item.Extra>
         </Item.Content>
       </Item>

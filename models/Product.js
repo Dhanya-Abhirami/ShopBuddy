@@ -21,10 +21,10 @@ const ProductSchema  = new mongoose.Schema({
         unique : true,
         default : shortid.generate()
     },
-    mediaUrl : {
+    imageUrl : {
         type : String,
         required : true
     },
 })
 
-export default mongoose.models.Product ||  mongoose.model('Product',ProductSchema);
+export default mongoose.models.Product ||  mongoose.model('Product',ProductSchema); // For 'Product' model, the collection created has name 'products'

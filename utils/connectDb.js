@@ -4,7 +4,7 @@ const connection = {};
 async function connectDb () {
     if (connection.isConnected) {
         // Use exixting database connection
-        console.log('Using existing connection')
+        // console.log('Using existing connection')
         return;
     }
     // Use a new databse connection
@@ -14,7 +14,7 @@ async function connectDb () {
         useNewUrlParser : true,
         useUnifiedTopology : true
     })
-    console.log('DB connected')
+    // console.log('DB connected')
     connection.isConnected = db.connections[0].readyState; // for serverless
 }
 
