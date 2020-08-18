@@ -19,13 +19,14 @@ Order History               |  Product Detail               | Cart              
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 
 ### Tech stack
-* MERN Stack
+* [MongoDB](https://www.mongodb.com/cloud/atlas)
+* Express
+* React JS
+* Node JS
 
 ### Dependencies
 * [Cloudinary](https://cloudinary.com/)
 * [Stripe](https://stripe.com/en-in)
-
-
 
 ### Setup
 Basic Installation
