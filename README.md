@@ -1,12 +1,30 @@
-# ShopBuddy
-Online Shopping website
+# ShopBuddy :shopping_cart:
+Interactive Online Marketplace website that facilitates product buying and selling
 
+### Features
+* Authentication
+* Role-based Authorization
+* Seller can post products
+* Product Page with details about each product
+* Add to Cart
+* Checkout using Stripe
+* Order History
+* Validation, Error & Exception Handling
 
-## Tech stack
+### Screenshots
+Home Screen               |  Product Detail               | Cart               |  Checkout
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+![]()|![]()|![]()|![]()|
+Order History
+### Tech stack
 * MERN Stack
-* API's from Cloudinary, Stripe
-
-# Installation
+## Dependencies
+<details>
+     <summary> Click to expand </summary>
+  * [Cloudinary](https://pub.dev/packages/cached_network_image)
+  * [Stripe]()
+</details>
+### Setup
 Basic Installation
 ```console
 dhanya@dhanya:~$ git clone https://github.com/Dhanya-Abhirami/ShopBuddy.git
@@ -28,3 +46,10 @@ Run Server in Development Mode
 ```console
 dhanya@dhanya:~$ npm run dev
 ```
+
+### Todo
+- [ ] Confirm Password
+- [ ] Signup email confirmation
+- [ ] order placed - email
+- [ ] Search products
+- [ ] Recommendation
