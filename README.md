@@ -15,15 +15,18 @@ Interactive Online Marketplace website that facilitates product buying and selli
 Home Screen               |  Product Detail               | Cart               |  Checkout
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 ![]()|![]()|![]()|![]()|
-Order History
+Order History               |  Product Detail               | Cart               |  Checkout
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+
 ### Tech stack
 * MERN Stack
-## Dependencies
-<details>
-     <summary> Click to expand </summary>
-  * [Cloudinary](https://pub.dev/packages/cached_network_image)
-  * [Stripe]()
-</details>
+
+### Dependencies
+* [Cloudinary](https://cloudinary.com/)
+* [Stripe](https://stripe.com/en-in)
+
+
+
 ### Setup
 Basic Installation
 ```console
@@ -46,6 +49,9 @@ Run Server in Development Mode
 ```console
 dhanya@dhanya:~$ npm run dev
 ```
+### References
+* [Reed Barger](https://github.com/reedbarger/react-reserve)
+* Colours inspired from [Flipkart](https://www.flipkart.com/)
 
 ### Todo
 - [ ] Confirm Password
