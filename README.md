@@ -2,14 +2,23 @@
 Interactive Online Marketplace website that facilitates product buying and selling
 
 ### Features
-* Authentication
-* Role-based Authorization
-* Seller can post products
-* Product Page with details about each product
-* Add to Cart
-* Checkout using Stripe
-* Order History
-* Validation, Error & Exception Handling
+- [x]  Authentication
+    - [x]  Signup with email ID
+    - [ ]  Signup email confirmation
+- [x]  Role-based Authorization
+- [x]  Buyer
+    - [x]  Browse Product List
+    - [ ]  Search products
+    - [ ]  Sort & Filter products
+    - [ ]  Recommendation
+    - [x]  Product Detail Page 
+    - [x]  Add to Cart
+    - [x]  Checkout using Stripe
+    - [ ]  Order Placed email confirmation
+    - [x]  Order History
+- [x]  Seller 
+    - [x]  Post products
+- [x]  Security, Validation, Error & Exception Handling
 
 Role Name	Permissions
 roles/viewer	Permissions for read-only actions that do not affect state, such as viewing (but not modifying) existing resources or data.
@@ -61,7 +70,3 @@ dhanya@dhanya:~$ npm run dev
 
 ### Todo
 - [ ] Confirm Password
-- [ ] Signup email confirmation
-- [ ] order placed - email
-- [ ] Search products
-- [ ] Recommendation
