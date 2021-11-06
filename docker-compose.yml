@@ -1,0 +1,46 @@
+version: '3'
+
+services:
+  server:
+    build: .
+    container_name: shopbuddy
+    # depends_on:
+    #   - mysql
+    #   - redis
+    #   - mailhog
+    ports:
+      - 3000:3000
+    # links:
+    #   - mysql
+    #   - redis
+    #   - mailhog
+#   mysql:
+#     image: mysql
+#     restart: always
+#     env_file:
+#       - .env.docker
+#     environment:
+#       MYSQL_ROOT_PASSWORD: $TYPEORM_PASSWORD
+#       MYSQL_DATABASE: $TYPEORM_DATABASE
+#     cap_add:
+#       - SYS_NICE
+#     ports:
+#       - 11543:3306
+#     volumes:
+#       - db-config:/etc/mysql
+#       - db-data:/var/lib/mysql
+#   redis:
+#     image: redis
+#     restart: always
+#     expose:
+#       - 6379
+#   mailhog:
+#     image: mailhog/mailhog
+#     restart: always
+#     ports:
+#       - 1025:1025
+#       - 8025:8025
+
+# volumes:
+#   db-config:
+#   db-data:

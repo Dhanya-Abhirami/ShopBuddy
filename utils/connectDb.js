@@ -8,12 +8,7 @@ async function connectDb () {
         return;
     }
     // Use a new databse connection
-    const db = await mongoose.connect(process.env.MONGO_SRV, {
-        useCreateIndex : true,
-        useFindAndModify : false,
-        useNewUrlParser : true,
-        useUnifiedTopology : true
-    })
+    const db = await mongoose.connect(process.env.MONGO_SRV)
     // console.log('DB connected')
     connection.isConnected = db.connections[0].readyState; // for serverless
 }
