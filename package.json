@@ -24,7 +24,7 @@
     "react-dom": "^16.8.6",
     "react-stripe-checkout": "^2.6.3",
     "semantic-ui-react": "^0.87.3",
-    "shortid": "^2.2.14",
+    "shortid": "^2.2.16",
     "stripe": "^8.77.0",
     "uuid": "^3.3.2",
     "validator": "^11.1.0"
