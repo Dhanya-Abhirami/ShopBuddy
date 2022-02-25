@@ -19,8 +19,10 @@ The site is made for educational purposes!
 ### Features
 - [x]  Authentication
     - [ ] Confirm Password
-    - [x]  Signup with email ID
-    - [ ]  Signup email confirmation
+    - [ ] Password Reset
+    - [x] Signup with email ID
+    - [ ] Signup OAuth (Gmail,Github,Twitter)
+    - [ ] Verify Email
 - [x]  Role-based Authorization
 - [x]  Buyer
     - [x]  Browse Product List
@@ -30,11 +32,20 @@ The site is made for educational purposes!
     - [x]  Product Detail Page 
     - [x]  Add to Cart
     - [x]  Checkout using Stripe
+    - [ ]  Checkout using other services (Razorpay)
     - [ ]  Order Placed email confirmation
     - [x]  Order History
+    - [ ]  Scheduled Email (Cron Job) for users with cart not checked out
 - [x]  Seller 
-    - [x]  Post products
+    - [x]  Create products
+    - [x]  Upload images to Cloud Storage(Cloudinary)
 - [x]  Security, Validation, Error & Exception Handling
+
+# REST APIs
+Swagger Documentation
+```
+
+```
 
 Role Name	Permissions
 roles/viewer	Permissions for read-only actions that do not affect state, such as viewing (but not modifying) existing resources or data.
