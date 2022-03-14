@@ -1,4 +1,4 @@
-FROM node:16.13.0-alpine3.14
+FROM node:17.7.1-alpine3.14
 
 RUN mkdir -p /src
 WORKDIR /src
