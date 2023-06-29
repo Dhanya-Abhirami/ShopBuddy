@@ -60,15 +60,14 @@ Order History               |  Product Detail               | Cart              
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
 
 ### Built With
-* [Cloudinary API](https://cloudinary.com/)
-* [Stripe API](https://stripe.com/en-in)
-* [Axios](https://www.npmjs.com/package/axios)
+
 
 ### Tech stack
-* [MongoDB](https://www.mongodb.com/cloud/atlas)
-* Express
-* React JS
-* Node JS
+* Database hosted in [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+* Backend - Node JS (Express and [Axios](https://www.npmjs.com/package/axios))
+* Frontend - React JS
+* Payments handled through [Stripe](https://stripe.com/en-in)
+* Images in [Cloudinary](https://cloudinary.com/)
 
 ### Setup
 1. Get a free API Key from MongoDB Atlas, Cloudinary, Stripe
